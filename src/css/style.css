@@ -24,32 +24,32 @@ main{
     align-items: center;
 }
 
-.container{
+.container-main{
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.container img{
+.container-main img{
     width: 430px;
     height: 126px;
 }
 
-.content{
+.content-main{
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.content h1{
+.content-main h1{
     width: 500px;
 }
 
-.content span{
+.content-main span{
     color: var(--color-cyan);
 }
 
-.content p{
+.content-main p{
     width: 450px;
 }
 
@@ -74,4 +74,44 @@ nav li{
     background-color: var(--color-black);
     border: 2px solid var(--color-cyan);
     color: var(--color-cyan);
+}
+
+/* Section Cards */
+.section-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+    background-color: var(--bg-color);
+}
+
+.section-info span{
+    color: var(--color-cyan);
+}
+
+.section-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+.cards{
+    background-color: var(--bg-black);
+    padding: 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-card{
+    display: flex;
+    gap: 5px;
 }
