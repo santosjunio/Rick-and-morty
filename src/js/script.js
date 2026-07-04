@@ -12,16 +12,17 @@ fetch("https://rickandmortyapi.com/api/character")
         <img src="${personagem.image}" alt="Imagem do personagem">
         <h2>${personagem.name}</h2>
        <div class="info-card">
-                        <img src="./src/assets/img/iconAlien.svg" alt="Icon alien">
-                        <p>${personagem.species}</p>
-                    </div>
-                    <div class="info-card">
-                        <img src="./src/assets/img/Vector.svg" alt="Icon Alive">
-                        <p>${personagem.status}</p>
-                    </div>
-                    <div class="info-card">
-                        <img src="./src/assets/img/planet.svg" alt="Icon planet">
-                        <p>${personagem.origin.name}</p>
+            <img src="./src/assets/img/iconAlien.svg" alt="Icon alien">
+            <p>${personagem.species}</p>
+        </div>
+        <div class="info-card">
+            <img src="./src/assets/img/Vector.svg" alt="Icon Alive">
+            <p>${personagem.status}</p>
+        </div>
+        <div class="info-card">
+            <img src="./src/assets/img/planet.svg" alt="Icon planet">
+            <p>${personagem.origin.name}</p>
+        </div>
     `
     container.appendChild(card)
     });
