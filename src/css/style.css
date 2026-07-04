@@ -97,7 +97,7 @@ nav li{
     gap: 35px;
 }
 
-.cards{
+.card{
     background-color: var(--bg-black);
     padding: 30px;
     border-radius: 50px;
